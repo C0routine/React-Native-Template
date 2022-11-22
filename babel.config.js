@@ -12,6 +12,7 @@ module.exports = {
           components: ['./src/components'],
           global: ['./src/global'],
           screen: ['./src/screen'],
+          stacks: ['./src/stacks'],
           store: ['./src/store'],
         },
       },
