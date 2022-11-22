@@ -18,3 +18,7 @@
   **[] $VALUES;
   public *;
 }
+
+# Reanimated2 Proguard
+-keep class com.swmansion.reanimated.** { *; }
+-keep class com.facebook.react.turbomodule.** { *; }
