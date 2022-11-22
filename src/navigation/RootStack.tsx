@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
+import HomeStack from './HomeStack';
 
 const RootStack = () => {
-  return(
+  return (
     <NavigationContainer>
-
+      <HomeStack />
     </NavigationContainer>
-  )
-}
+  );
+};
 
 export default RootStack;
