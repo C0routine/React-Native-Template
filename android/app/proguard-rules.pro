@@ -22,3 +22,6 @@
 # Reanimated2 Proguard
 -keep class com.swmansion.reanimated.** { *; }
 -keep class com.facebook.react.turbomodule.** { *; }
+
+# Svg Proguard
+-keep public class com.horcrux.svg.** {*;}
