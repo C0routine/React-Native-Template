@@ -3,13 +3,14 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "api": ["src/api"],
-      "assets": ["src/assets"],
-      "components": ["src/components"],
-      "global": ["src/global"],
-      "screen": ["src/screen"],
-      "stacks": ["src/navigation"],
-      "store": ["src/store"]
+      "api": ["./api"],
+      "assets": ["./assets"],
+      "components": ["./components"],
+      "global": ["./global"],
+      "navigation": ["./navigation"],
+      "screen": ["./screen"],
+      "stacks": ["./navigation"],
+      "store": ["./store"]
     }
   }
 }
